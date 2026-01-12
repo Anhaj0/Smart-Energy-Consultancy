@@ -9,7 +9,7 @@ export default function Services({ onNavigate }: ServicesProps) {
     <div className="bg-white">
       <section className="bg-slate-800 text-white py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-4">Technical Services</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">Technical Services</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
             Engineering-focused energy solutions for industrial and commercial facilities.
           </p>
@@ -18,7 +18,7 @@ export default function Services({ onNavigate }: ServicesProps) {
 
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="border-l-4 border-teal-600 pl-8 mb-16">
+          <div className="border-l-4 border-teal-600 pl-4 md:pl-8 mb-12 md:mb-16">
             <div className="flex items-start space-x-4 mb-6">
               <Search className="h-12 w-12 text-teal-600 flex-shrink-0" />
               <div>
@@ -96,7 +96,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             </div>
           </div>
 
-          <div className="border-l-4 border-teal-600 pl-8 mb-16">
+          <div className="border-l-4 border-teal-600 pl-4 md:pl-8 mb-12 md:mb-16">
             <div className="flex items-start space-x-4 mb-6">
               <Wrench className="h-12 w-12 text-teal-600 flex-shrink-0" />
               <div>
@@ -174,7 +174,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             </div>
           </div>
 
-          <div className="border-l-4 border-teal-600 pl-8">
+          <div className="border-l-4 border-teal-600 pl-4 md:pl-8">
             <div className="flex items-start space-x-4 mb-6">
               <FileCheck className="h-12 w-12 text-teal-600 flex-shrink-0" />
               <div>

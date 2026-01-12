@@ -10,7 +10,7 @@ export default function Home({ onNavigate }: HomeProps) {
       <section className="bg-gradient-to-br from-slate-800 to-slate-900 text-white py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
               Reduce Energy Costs Through Technical Analysis
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">

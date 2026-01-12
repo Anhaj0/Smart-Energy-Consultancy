@@ -5,7 +5,7 @@ export default function About() {
     <div className="bg-white">
       <section className="bg-slate-800 text-white py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-4">About Our Firm</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">About Our Firm</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
             Independent energy consultancy serving Sri Lankan industries since establishment.
           </p>
